@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Enfield</title>
+
+  <!-- favicon -->
+   <link rel="icon" href="data:image/png;base64,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">
+
+  <!-- linking bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <!-- linking fontawesome -->
+    <script src="https://kit.fontawesome.com/eacbd118ee.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="bg-dark text-white">
+  <!-- navbar -->
+  <nav class="sticky-top">
+    <ul class="nav justify-content-center bg-dark z-3 ">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#contact">contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- header -->
+  <Header>
+    <!-- carousal -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"  ;>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/himalayan/home/desktop/himalayan-home-motorcycle.jpg"
+            class="d-block w-100 " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img height="auto" style="height:350px; object-fit: cover;"
+            src="https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/guerrilla-450/gallery/thumbnail/gallery-12.jpg"
+            class="d-block w-100 " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/bear-650/gallery/new/thumbnail/desktop/gallery-thumbnail-6.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </Header>
+
+  <!-- main -->
+  <main id="about" class="pt-5">
+    <div class="container-fluid">
+      <h1 class="display-1">Royal Enfield</h1>
+      <p>
+      <h6 class="display-6">History and Heritage</h6>
+      Royal Enfield originated in 1901 in Redditch, England, initially manufacturing bicycles before transitioning to
+      motorcycles. The brand supplied military motorcycles during World War I, solidifying its legacy within the British
+      motorcycling industry2. In 1955, Royal Enfield partnered with Madras Motors in India, marking its significant
+      transition to Indian ownership. Today, Royal Enfield operates as a subsidiary of Eicher Motors Limited, an Indian
+      automaker1.
+
+      <h6 class="display-6"> Iconic Models</h6>
+      Royal Enfield is known for its classic-looking motorcycles, including the Royal Enfield Bullet, Classic 350,
+      Thunderbird, Meteor 350, Classic 500, Interceptor 650, Continental GT, and Himalayan. These bikes are equipped
+      with single-cylinder and twin-cylinder engines, catering to various market segments1.
+
+      <h6 class="display-6">Recent Developments</h6>
+      Recently, Royal Enfield has been working on expanding its lineup with new models like the Classic 650, which is
+      based on the same platform as the Super Meteor 650 and the Shotgun 650. The company is also venturing into the
+      electric motorcycle market with the Flying Flea EV, featuring cutting-edge technology and smart tech integration.
+
+      <h6 class="display-6">Market Presence</h6>
+      Royal Enfield has a strong presence in India and is expanding globally. The brand's motorcycles are known for
+      their durability, classic design, and the iconic "thump" of their engines, which has become synonymous with Indian
+      motorcycling culture5.
+
+      </p>
+    </div>
+
+
+  </main>
+
+  <div class=" container pt-5" id="Gallery">
+
+    <h1 class="highlight">Royal fleet</h1>
+    <!-- gallery first row -->
+
+    <div class="row">
+      <div class="col-4"><img
+          src="https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/scram-411/scram-411-listing.jpg"
+          width="100%" alt=""></div>
+      <div class="col-4"><img
+          src="https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/landing/interceptor-650-thumbnail.jpg"
+          width="100%" alt=""></div>
+      <div class="col-4"> <img
+          src="https://www.royalenfield.com/content/dam/royal-enfield/hunter-350/hunter-350-motorcycle-landing.jpg"
+          width="100%" alt=""></div>
+
+    </div>
+
+    <!-- gallery second row -->
+    <div class="row pt-2">
+      <div class="col-4"><img
+          src="https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/bear-650/rena/bear-650-motorcycles.jpg"
+          width="100%" alt=""></div>
+      <div class="col-4"><img
+          src="https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/himalayan/new-himalayan-motorcycle-listing.jpg"
+          width="100%" alt=""></div>
+      <div class="col-4"><img
+          src="https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/guerrilla-450/guerrilla_450_motorcycle.jpg"
+          width="100%" alt=""></div>
+    </div>
+
+    <!-- gallery Third row -->
+    <div class="row pt-2 pb-5">
+      <div class="col-4"><img
+          src="https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/landing/continental-gt-650-thumbnail.jpg"
+          alt="" width="100%"></div>
+      <div class="col-4"><img
+          src="https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/new-classic-350/classic-350-motorcycle-listing.jpg"
+          alt="" width="100%"></div>
+      <div class="col-4"><img
+          src="https://www.royalenfield.com/content/dam/royal-enfield/bullet/bullet-350-motorcycle-listing.jpg" alt=""
+          width="100%"></div>
+    </div>
+
+
+  </div>
+
+
+  <!-- footer -->
+  <footer class="container-fluid">
+    <div id="contact" class="row">
+      <div class="col-6 border">
+        <h2 class="text-center text-warning">contact us</h2>
+        <h4>For assistance on all things Enfield, contact us at: </h4>
+        <p>
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel: 18002100007" style="color: blue;"> 1800 210 0007</a>
+          <br>
+          (For Roadside Assistance (RSA) 24X7)
+        </p>
+
+        <p>
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:18002100008" style="color: blue;">  1800 210 0008</a>
+          <br>
+           For Customer Support ( 9 am - 9 pm )
+        </p>
+
+        <p>
+          Email: <a href="mailto:support@royalenfield.com" style="color:cadetblue">support@royalenfield.com</a>
+        </p>
+      </div>
+      <div class="col-6 border">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214872.44253182958!2d79.62501199453128!3d12.901678000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f36a76ad127b%3A0xfb35387d8fb9add5!2sRoyal%20Enfield%20Manufacturing%20Plant%20Valam!5e1!3m2!1sen!2sin!4v1737045945288!5m2!1sen!2sin"
+          width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<!-- linking bootstrap script tag -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
